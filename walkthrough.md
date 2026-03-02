@@ -142,7 +142,7 @@ graph LR
 
         subgraph "🔧 Platform"
             CASHIA_GW["cashia-payment-gateway (4)<br/>Cashia Own Gateway"]
-            DYNAMIC["dynamic-gate-controller (11)<br/>Dynamic External Gateway<br/>(Kafka-driven)"]
+            DYNAMIC["dynamic-gate-controller (11)<br/>Dynamic External Gateway<br/>"]
             EXT_PAY["external-payments-controller (11)<br/>Generic External Payments"]
             CUSTOM["custom (6)<br/>Custom Gate"]
             MANUAL["manual-gateway (4)<br/>Manual/Offline Gateway"]
